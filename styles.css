@@ -110,12 +110,6 @@ body {
 .box-link:nth-of-type(6) {
   animation:backInRight 4s;
 }
-.box-link:nth-of-type(7) {
-  animation:backInRight 4.5s;
-}
-.box-link:nth-of-type(8) {
-  animation:backInRight 5s;
-}
 
 .box-link:hover {
   transform:translateY(-5px);
