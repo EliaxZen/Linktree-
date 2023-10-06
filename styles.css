@@ -20,7 +20,8 @@
 }
 
 body {
-width:100vw;
+width:100%;
+hidth: 100%;
   overflow-x: hidden;
 background: rgb(4,41,55);
 background: linear-gradient(45deg, rgba(4,41,55,1) 0%, rgba(0,0,0,0.9926514451096697) 100%);
