@@ -19,23 +19,25 @@
   user-select: none;
 }
 
-body {
+body {
+width:100%;
   overflow-x: hidden;
 }
 
 .bg {
   position: fixed;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   background: rgb(0,36,59);
   background: radial-gradient(circle, rgba(0,36,59,1) 51%, rgba(0,0,0,1) 100%);
   filter: brightness(45%);
   z-index: -1;
+overflow: hidden;
 }
 
 .container {
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   align-items: center;
   justify-content: center;
@@ -69,7 +71,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   height: 100%;
 }
 
@@ -101,13 +103,13 @@ body {
   animation:backInRight 2s;
 }
 .box-link:nth-of-type(4) {
-  animation:backInRight 3s;
+  animation:backInRight 2.5s;
 }
 .box-link:nth-of-type(5) {
-  animation:backInRight 3.5s;
+  animation:backInRight 3s;
 }
 .box-link:nth-of-type(6) {
-  animation:backInRight 4s;
+  animation:backInRight 3.5s;
 }
 
 .box-link:hover {
