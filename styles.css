@@ -23,7 +23,7 @@ body {
 width:100vw;
   overflow-x: hidden;
 background: rgb(0,36,59);
-  background: radial-gradient(circle, rgba(0,36,59,1) 51%, rgba(0,0,0,1) 100%);
+  background: radial-gradient(circle, rgba(0,36,59,0.5) 51%, rgba(0,0,0,1) 100%);
 }
 
 
@@ -118,7 +118,7 @@ background: rgb(0,36,59);
   margin-right: 20px;
 }
 .animated {
-  animation:pulse 2s infinite;
+  animation:pulse 1s infinite;
 }
 
 
@@ -136,7 +136,7 @@ background: rgb(0,36,59);
     width: 150px;
   }
   .box-link {
-    width: 80%;
+    width: 90%;
   }
   .box-link img {
     width: 35px;
