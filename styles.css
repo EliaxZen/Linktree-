@@ -19,14 +19,13 @@ html ::-webkit-scrollbar-track {
   user-select: none;
 }
 
-body {
-  width: 100%;
+body {
   overflow-x: hidden;
 }
 
 .bg {
   position: fixed;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background: rgb(0,36,59);
   background: radial-gradient(circle, rgba(0,36,59,1) 51%, rgba(0,0,0,1) 100%);
@@ -36,7 +35,7 @@ body {
 
 .container {
   display: flex;
-  width: 100%;
+  width: 100vw;
   height: 100%;
   align-items: center;
   justify-content: center;
