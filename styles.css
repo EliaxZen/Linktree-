@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@700&display=swap');
 
-html ::-webkit-scrollbar {
+*::-webkit-scrollbar {
   width: 10px;
 }
-html ::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
   border-radius: 50px;
   background: #00243b;
 }
-html ::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
   background: #ffffff;
 }
 * {
