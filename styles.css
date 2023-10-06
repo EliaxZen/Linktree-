@@ -23,19 +23,7 @@ body {
 width:100vw;
   overflow-x: hidden;
 }
-
-.bg {
-  position: fixed;
-top: 0;
-bottons: 0;
-  width: 100vw;
-  height: 100%;
-  background: rgb(0,36,59);
-  background: radial-gradient(circle, rgba(0,36,59,1) 51%, rgba(0,0,0,1) 100%);
-  filter: brightness(45%);
-  z-index: -1;
-overflow: hidden;
-}
+
 
 .container {
   display: flex;
@@ -46,6 +34,8 @@ overflow: hidden;
   flex-direction: column;
   z-index: 999;
  overflow-x: hidden;
+background: rgb(0,36,59);
+  background: radial-gradient(circle, rgba(0,36,59,1) 51%, rgba(0,0,0,1) 100%);
 }
 
 
