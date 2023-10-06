@@ -91,22 +91,22 @@ body {
   cursor: pointer;
 }
 .box-link:nth-of-type(1) {
-  animation: backInRight 1s;
+  animation: backInRight 0.5s;
 }
 .box-link:nth-of-type(2) {
-  animation: backInRight 1.5s;
+  animation: backInRight 1s;
 }
 .box-link:nth-of-type(3) {
-  animation: backInRight 2s;
+  animation: backInRight 1.5s;
 }
 .box-link:nth-of-type(4) {
-  animation: backInRight 2.5s;
+  animation: backInRight 2s;
 }
 .box-link:nth-of-type(5) {
-  animation: backInRight 3s;
+  animation: backInRight 2.5s;
 }
 .box-link:nth-of-type(6) {
-  animation: backInRight 3.5s;
+  animation: backInRight 3s;
 }
 
 .box-link:hover {
