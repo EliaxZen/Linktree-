@@ -40,6 +40,12 @@ body {
   flex-direction: column;
   overflow-x: hidden;
   padding: 50px;
+background:     rgba(0, 36, 59, 1);
+  background: linear-gradient(
+    30deg,
+    rgba(0, 36, 59, 1)0%,
+    rgba(0, 0, 0, 0.9926514451096697) 100%
+  );
 }
 
 .avatar {
