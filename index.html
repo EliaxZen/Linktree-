@@ -1,55 +1,129 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-     <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
-    <title>elias_.codes</title>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="shortcut icon" type="imagex/png" href="./images/avatar.png">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-  </head>
-  <body>
-    <div class="bg"></div>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Elias Galvão</title>
+  <meta name="description" content="Elias Galvão, desenvolvedor full stack. Portfólio, currículo, LinkedIn e GitHub." />
+  <meta name="theme-color" content="#0A93C5" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Elias Galvão" />
+  <meta property="og:description" content="Desenvolvedor full stack. PHP e Laravel, na Log Manager." />
+  <meta property="og:image" content="https://my-portfolio-created-by-elias.netlify.app/assets/img/elias.jpg" />
+  <meta property="og:url" content="https://clique-aqui.netlify.app/" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Manrope:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    document.documentElement.classList.add('js');
+    try {
+      var savedTheme = localStorage.getItem('theme');
+      if (savedTheme) document.documentElement.setAttribute('data-theme', savedTheme);
+    } catch (e) {}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
 
-    <div class="container">
-          <div class="avatar">
-            <img src="images/avatar.png" />
-          </div>
-          <div class="links">
-            <div class="box-link">
-              <img src="images/iconportfolio.png" />
-              <a
-                href="https://my-portfolio-created-by-elias.netlify.app/"
-                target="_blank"
-                >Portfólio</a
-              >
-            </div>
-            <div class="box-link">
-              <img src="images/iconcertificados.png" />
-              <a href="https://certificate-elias.netlify.app/" target="_blank">Certificados</a>
-            </div>
-            <div class="box-link">
-              <img src="images/iconpizza.png" class="animated" />
-              <a href="https://compradepizzas.netlify.app/" target="_blank">Pizzas</a>
-            </div>
-            <div class="box-link">
-              <img src="images/icongalaxy.png" class="animated"/>
-              <a href="https://quiz-created-by-elias.netlify.app/" target="_blank">Quiz</a>
-            </div>
-            <div class="box-link">
-              <img src="images/iconlinkedin.png" />
-              <a href="https://www.linkedin.com/in/elias379/" target="_blank"
-                >LinkedIn</a
-              >
-            </div>
-            <div class="box-link">
-              <img src="images/icongithub.png" />
-              <a href="https://github.com/EliaxZen" target="_blank">GitHub</a>
-            </div>
-    </div>
-    <script src="script.js"></script>
-  </body>
+  <header class="top">
+    <p class="brand">
+      <span class="brand__mark">EG</span>
+      <span class="brand__name">Elias Galvão</span>
+    </p>
+    <button class="theme-toggle" type="button" aria-label="Alternar entre tema claro e escuro">
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </header>
+
+  <main id="conteudo">
+    <section class="profile">
+      <img src="images/elias.jpg" alt="Foto de Elias Galvão" width="750" height="1000" />
+      <p class="kicker mono">desenvolvedor full stack</p>
+      <h1>Elias Galvão</h1>
+      <p class="headline">Sistemas de logística que a operação usa todos os dias.</p>
+      <p class="sub">Na Log Manager, com PHP e Laravel. Brasília, DF.</p>
+    </section>
+
+    <nav class="links" aria-label="Links">
+      <a class="card" href="https://my-portfolio-created-by-elias.netlify.app/" target="_blank" rel="noopener noreferrer">
+        <span class="card__body">
+          <span class="card__title">Portfólio</span>
+          <span class="card__desc">Experiência, entregas e como trabalho</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="https://my-portfolio-created-by-elias.netlify.app/assets/docs/Elias-Galvao-Curriculo.pdf" target="_blank" rel="noopener noreferrer">
+        <span class="card__body">
+          <span class="card__title">Currículo</span>
+          <span class="card__desc">PDF para baixar</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="https://www.linkedin.com/in/elias379/" target="_blank" rel="noopener noreferrer">
+        <span class="card__body">
+          <span class="card__title">LinkedIn</span>
+          <span class="card__desc">Trajetória e contato profissional</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="https://github.com/EliaxZen" target="_blank" rel="noopener noreferrer">
+        <span class="card__body">
+          <span class="card__title">GitHub</span>
+          <span class="card__desc">Código aberto</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="https://wa.me/5561992268352" target="_blank" rel="noopener noreferrer">
+        <span class="card__body">
+          <span class="card__title">WhatsApp</span>
+          <span class="card__desc">Mensagem direta</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="mailto:galvaoalveselias@gmail.com">
+        <span class="card__body">
+          <span class="card__title">E-mail</span>
+          <span class="card__desc">galvaoalveselias@gmail.com</span>
+        </span>
+        <span class="card__go" aria-hidden="true">↗</span>
+      </a>
+    </nav>
+
+    <section class="more" aria-labelledby="projetos-title">
+      <h2 id="projetos-title" class="mono">Projetos</h2>
+      <nav class="links" aria-label="Projetos">
+        <a class="card" href="https://certificate-elias.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <span class="card__body">
+            <span class="card__title">Certificados</span>
+            <span class="card__desc">Cursos e formações</span>
+          </span>
+          <span class="card__go" aria-hidden="true">↗</span>
+        </a>
+        <a class="card" href="https://quiz-created-by-elias.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <span class="card__body">
+            <span class="card__title">Quiz</span>
+            <span class="card__desc">Interface em HTML, CSS e JavaScript</span>
+          </span>
+          <span class="card__go" aria-hidden="true">↗</span>
+        </a>
+        <a class="card" href="https://compradepizzas.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <span class="card__body">
+            <span class="card__title">Pizzas</span>
+            <span class="card__desc">Página de compra feita com JavaScript</span>
+          </span>
+          <span class="card__go" aria-hidden="true">↗</span>
+        </a>
+      </nav>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="ano-atual">2026</span> Elias Galvão · Brasília, DF</p>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
 </html>

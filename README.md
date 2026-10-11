@@ -1,6 +1,15 @@
-# Linktree-
-Criei o meu próprio linketree com HTML e CSS para colocar no meu instagram.
-# <a href="https://clique-aqui.netlify.app/">DEPLOY</a>
+# Links — Elias Galvão
 
-https://github.com/EliaxZen/Linktree-/assets/132005740/dc545abc-c5fc-43de-900e-76c45700f3bd
+Página de links para o Instagram, no mesmo visual do portfólio.
 
+**Deploy:** https://clique-aqui.netlify.app/
+
+**Portfólio:** https://my-portfolio-created-by-elias.netlify.app/
+
+## Rodar localmente
+
+Abra o `index.html` no navegador, ou sirva a pasta:
+
+```bash
+python -m http.server 8080
+```
